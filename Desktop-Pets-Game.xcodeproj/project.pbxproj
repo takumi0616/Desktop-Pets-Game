@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75151EF2B04A4A700C65734 /* Desktop_Pets_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75151EE2B04A4A700C65734 /* Desktop_Pets_GameApp.swift */; };
+		C75151F12B04A4A700C65734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75151F02B04A4A700C65734 /* ContentView.swift */; };
+		C75151F32B04A4A700C65734 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75151F22B04A4A700C65734 /* Item.swift */; };
+		C75151F52B04A4A800C65734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75151F42B04A4A800C65734 /* Assets.xcassets */; };
+		C75151F92B04A4A800C65734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75151F82B04A4A800C65734 /* Preview Assets.xcassets */; };
+		C75152032B04A4A800C65734 /* Desktop_Pets_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75152022B04A4A800C65734 /* Desktop_Pets_GameTests.swift */; };
+		C751520D2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C751520C2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift */; };
+		C751520F2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C751520E2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75151FF2B04A4A800C65734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75151E32B04A4A700C65734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75151EA2B04A4A700C65734;
+			remoteInfo = "Desktop-Pets-Game";
+		};
+		C75152092B04A4A800C65734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75151E32B04A4A700C65734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75151EA2B04A4A700C65734;
+			remoteInfo = "Desktop-Pets-Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C75151EB2B04A4A700C65734 /* Desktop-Pets-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desktop-Pets-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75151EE2B04A4A700C65734 /* Desktop_Pets_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop_Pets_GameApp.swift; sourceTree = "<group>"; };
+		C75151F02B04A4A700C65734 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C75151F22B04A4A700C65734 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C75151F42B04A4A800C65734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75151F62B04A4A800C65734 /* Desktop_Pets_Game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Desktop_Pets_Game.entitlements; sourceTree = "<group>"; };
+		C75151F82B04A4A800C65734 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C75151FE2B04A4A800C65734 /* Desktop-Pets-GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desktop-Pets-GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75152022B04A4A800C65734 /* Desktop_Pets_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop_Pets_GameTests.swift; sourceTree = "<group>"; };
+		C75152082B04A4A800C65734 /* Desktop-Pets-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desktop-Pets-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C751520C2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop_Pets_GameUITests.swift; sourceTree = "<group>"; };
+		C751520E2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop_Pets_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75151E82B04A4A700C65734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75151FB2B04A4A800C65734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75152052B04A4A800C65734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75151E22B04A4A700C65734 = {
+			isa = PBXGroup;
+			children = (
+				C75151ED2B04A4A700C65734 /* Desktop-Pets-Game */,
+				C75152012B04A4A800C65734 /* Desktop-Pets-GameTests */,
+				C751520B2B04A4A800C65734 /* Desktop-Pets-GameUITests */,
+				C75151EC2B04A4A700C65734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75151EC2B04A4A700C65734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75151EB2B04A4A700C65734 /* Desktop-Pets-Game.app */,
+				C75151FE2B04A4A800C65734 /* Desktop-Pets-GameTests.xctest */,
+				C75152082B04A4A800C65734 /* Desktop-Pets-GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75151ED2B04A4A700C65734 /* Desktop-Pets-Game */ = {
+			isa = PBXGroup;
+			children = (
+				C75151EE2B04A4A700C65734 /* Desktop_Pets_GameApp.swift */,
+				C75151F02B04A4A700C65734 /* ContentView.swift */,
+				C75151F22B04A4A700C65734 /* Item.swift */,
+				C75151F42B04A4A800C65734 /* Assets.xcassets */,
+				C75151F62B04A4A800C65734 /* Desktop_Pets_Game.entitlements */,
+				C75151F72B04A4A800C65734 /* Preview Content */,
+			);
+			path = "Desktop-Pets-Game";
+			sourceTree = "<group>";
+		};
+		C75151F72B04A4A800C65734 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C75151F82B04A4A800C65734 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C75152012B04A4A800C65734 /* Desktop-Pets-GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75152022B04A4A800C65734 /* Desktop_Pets_GameTests.swift */,
+			);
+			path = "Desktop-Pets-GameTests";
+			sourceTree = "<group>";
+		};
+		C751520B2B04A4A800C65734 /* Desktop-Pets-GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C751520C2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift */,
+				C751520E2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift */,
+			);
+			path = "Desktop-Pets-GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75151EA2B04A4A700C65734 /* Desktop-Pets-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75152122B04A4A800C65734 /* Build configuration list for PBXNativeTarget "Desktop-Pets-Game" */;
+			buildPhases = (
+				C75151E72B04A4A700C65734 /* Sources */,
+				C75151E82B04A4A700C65734 /* Frameworks */,
+				C75151E92B04A4A700C65734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desktop-Pets-Game";
+			productName = "Desktop-Pets-Game";
+			productReference = C75151EB2B04A4A700C65734 /* Desktop-Pets-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C75151FD2B04A4A800C65734 /* Desktop-Pets-GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75152152B04A4A800C65734 /* Build configuration list for PBXNativeTarget "Desktop-Pets-GameTests" */;
+			buildPhases = (
+				C75151FA2B04A4A800C65734 /* Sources */,
+				C75151FB2B04A4A800C65734 /* Frameworks */,
+				C75151FC2B04A4A800C65734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75152002B04A4A800C65734 /* PBXTargetDependency */,
+			);
+			name = "Desktop-Pets-GameTests";
+			productName = "Desktop-Pets-GameTests";
+			productReference = C75151FE2B04A4A800C65734 /* Desktop-Pets-GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C75152072B04A4A800C65734 /* Desktop-Pets-GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75152182B04A4A800C65734 /* Build configuration list for PBXNativeTarget "Desktop-Pets-GameUITests" */;
+			buildPhases = (
+				C75152042B04A4A800C65734 /* Sources */,
+				C75152052B04A4A800C65734 /* Frameworks */,
+				C75152062B04A4A800C65734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C751520A2B04A4A800C65734 /* PBXTargetDependency */,
+			);
+			name = "Desktop-Pets-GameUITests";
+			productName = "Desktop-Pets-GameUITests";
+			productReference = C75152082B04A4A800C65734 /* Desktop-Pets-GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75151E32B04A4A700C65734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C75151EA2B04A4A700C65734 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C75151FD2B04A4A800C65734 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C75151EA2B04A4A700C65734;
+					};
+					C75152072B04A4A800C65734 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C75151EA2B04A4A700C65734;
+					};
+				};
+			};
+			buildConfigurationList = C75151E62B04A4A700C65734 /* Build configuration list for PBXProject "Desktop-Pets-Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75151E22B04A4A700C65734;
+			productRefGroup = C75151EC2B04A4A700C65734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75151EA2B04A4A700C65734 /* Desktop-Pets-Game */,
+				C75151FD2B04A4A800C65734 /* Desktop-Pets-GameTests */,
+				C75152072B04A4A800C65734 /* Desktop-Pets-GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75151E92B04A4A700C65734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75151F92B04A4A800C65734 /* Preview Assets.xcassets in Resources */,
+				C75151F52B04A4A800C65734 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75151FC2B04A4A800C65734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75152062B04A4A800C65734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75151E72B04A4A700C65734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75151F12B04A4A700C65734 /* ContentView.swift in Sources */,
+				C75151F32B04A4A700C65734 /* Item.swift in Sources */,
+				C75151EF2B04A4A700C65734 /* Desktop_Pets_GameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75151FA2B04A4A800C65734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75152032B04A4A800C65734 /* Desktop_Pets_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75152042B04A4A800C65734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C751520D2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift in Sources */,
+				C751520F2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75152002B04A4A800C65734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75151EA2B04A4A700C65734 /* Desktop-Pets-Game */;
+			targetProxy = C75151FF2B04A4A800C65734 /* PBXContainerItemProxy */;
+		};
+		C751520A2B04A4A800C65734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75151EA2B04A4A700C65734 /* Desktop-Pets-Game */;
+			targetProxy = C75152092B04A4A800C65734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C75152102B04A4A800C65734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C75152112B04A4A800C65734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C75152132B04A4A800C65734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Desktop-Pets-Game/Desktop_Pets_Game.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Desktop-Pets-Game/Preview Content\"";
+				DEVELOPMENT_TEAM = PDVJ94L43K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi0616.Desktop-Pets-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C75152142B04A4A800C65734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Desktop-Pets-Game/Desktop_Pets_Game.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Desktop-Pets-Game/Preview Content\"";
+				DEVELOPMENT_TEAM = PDVJ94L43K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi0616.Desktop-Pets-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C75152162B04A4A800C65734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDVJ94L43K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi0616.Desktop-Pets-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desktop-Pets-Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desktop-Pets-Game";
+			};
+			name = Debug;
+		};
+		C75152172B04A4A800C65734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDVJ94L43K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi0616.Desktop-Pets-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desktop-Pets-Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desktop-Pets-Game";
+			};
+			name = Release;
+		};
+		C75152192B04A4A800C65734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDVJ94L43K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi0616.Desktop-Pets-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desktop-Pets-Game";
+			};
+			name = Debug;
+		};
+		C751521A2B04A4A800C65734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDVJ94L43K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "takumi0616.Desktop-Pets-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desktop-Pets-Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75151E62B04A4A700C65734 /* Build configuration list for PBXProject "Desktop-Pets-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75152102B04A4A800C65734 /* Debug */,
+				C75152112B04A4A800C65734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75152122B04A4A800C65734 /* Build configuration list for PBXNativeTarget "Desktop-Pets-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75152132B04A4A800C65734 /* Debug */,
+				C75152142B04A4A800C65734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75152152B04A4A800C65734 /* Build configuration list for PBXNativeTarget "Desktop-Pets-GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75152162B04A4A800C65734 /* Debug */,
+				C75152172B04A4A800C65734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75152182B04A4A800C65734 /* Build configuration list for PBXNativeTarget "Desktop-Pets-GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75152192B04A4A800C65734 /* Debug */,
+				C751521A2B04A4A800C65734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75151E32B04A4A700C65734 /* Project object */;
+}
