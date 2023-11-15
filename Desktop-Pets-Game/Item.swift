@@ -1,9 +1,9 @@
 //
-//  Item.swift
+//
 //  Desktop-Pets-Game
 //
 //  Created by 髙須賀匠 on 2023/11/15.
-//
+//  Item.swift
 
 import Foundation
 import SwiftData

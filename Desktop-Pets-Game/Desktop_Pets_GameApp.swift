@@ -1,32 +1,40 @@
 //
-//  Desktop_Pets_GameApp.swift
+//
 //  Desktop-Pets-Game
 //
 //  Created by 髙須賀匠 on 2023/11/15.
-//
+//  Desktop_Pets_GameApp.swift
 
 import SwiftUI
-import SwiftData
+import AppKit
 
 @main
-struct Desktop_Pets_GameApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+struct DesktopPetsGameApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
+    }
+}
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    var window: NSWindow!
+
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        let contentView = ContentView()
+
+        // ウィンドウの設定
+        window = NSWindow(
+            contentRect: NSRect(x: 0, y: 0, width: 200, height: 200),
+            styleMask: [.borderless, .fullSizeContentView],
+            backing: .buffered, defer: false)
+        window.isOpaque = false
+        window.center()
+        window.setFrameAutosaveName("Desktop Pets Game")
+        window.contentView = NSHostingView(rootView: contentView)
+        window.makeKeyAndOrderFront(nil)
+        window.level = .floating // 常に最前面に表示
     }
 }

@@ -1,66 +1,26 @@
 //
-//  ContentView.swift
+//
 //  Desktop-Pets-Game
 //
 //  Created by 髙須賀匠 on 2023/11/15.
-//
+//  ContentView.swift
 
 import SwiftUI
-import SwiftData
+import Combine
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @State private var imageNames = ["Image1", "Image2"] // 画像名を配列で管理
+    @State private var currentImageIndex = 0            // 現在の画像のインデックス
+    private let timer = Timer.publish(every: 10, on: .main, in: .common).autoconnect() // 10秒ごとのタイマー
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-#if os(macOS)
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-#endif
-            .toolbar {
-#if os(iOS)
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-#endif
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
-        }
+        Image(imageNames[currentImageIndex]) // 現在の画像を表示
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .onReceive(timer, perform: { _ in
+                currentImageIndex = (currentImageIndex + 1) % imageNames.count // 画像のインデックスを更新
+            })
+            .frame(width: 200, height: 200)
+            .background(Color.clear)
     }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
-        }
-    }
-}
-
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }
