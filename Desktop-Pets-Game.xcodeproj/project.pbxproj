@@ -15,6 +15,7 @@
 		C75152032B04A4A800C65734 /* Desktop_Pets_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75152022B04A4A800C65734 /* Desktop_Pets_GameTests.swift */; };
 		C751520D2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C751520C2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift */; };
 		C751520F2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C751520E2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift */; };
+		C7A753862B0BFC9B00C090CD /* DraggableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A753852B0BFC9B00C090CD /* DraggableWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C75152082B04A4A800C65734 /* Desktop-Pets-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desktop-Pets-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C751520C2B04A4A800C65734 /* Desktop_Pets_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop_Pets_GameUITests.swift; sourceTree = "<group>"; };
 		C751520E2B04A4A800C65734 /* Desktop_Pets_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop_Pets_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7A753852B0BFC9B00C090CD /* DraggableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C75151F42B04A4A800C65734 /* Assets.xcassets */,
 				C75151F62B04A4A800C65734 /* Desktop_Pets_Game.entitlements */,
 				C75151F72B04A4A800C65734 /* Preview Content */,
+				C7A753852B0BFC9B00C090CD /* DraggableWindow.swift */,
 			);
 			path = "Desktop-Pets-Game";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				C75151F12B04A4A700C65734 /* ContentView.swift in Sources */,
 				C75151F32B04A4A700C65734 /* Item.swift in Sources */,
 				C75151EF2B04A4A700C65734 /* Desktop_Pets_GameApp.swift in Sources */,
+				C7A753862B0BFC9B00C090CD /* DraggableWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
